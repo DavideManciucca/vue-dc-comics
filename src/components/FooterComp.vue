@@ -71,7 +71,7 @@ export default {
 
 <style lang="scss" scoped>
 footer{
-  height: 400px;
+  height: 325px;
   background-image: url(../assets/img/footer-bg.jpg);
  
 }.wrapper{
@@ -79,7 +79,7 @@ footer{
   justify-content: space-between;
   height: 75%;
   width:500px;
-  background-color: red;
+ 
 }.col-list{
   padding-top: 20px;
   padding-left:20px ;
@@ -90,6 +90,7 @@ footer{
   font-weight: bold;
 }ul li{
   list-style: none;
+  margin-left: -40px;
 }a{
   text-decoration: none;
   color: grey;
